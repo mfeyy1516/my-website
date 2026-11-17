@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khám phá các món ăn ngon đặc sản Trà Vinh: dừa sáp dầm đá, bún nước lèo, bún suông và bánh tét Trà Cuôn.">
+  <title>Các món ăn nên thử khi đến Trà Vinh</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f7fc;
+      color: #303030;
+    }
+
+    /* Phan anh bia va tieu de */
+    .anh-bia {
+      background-color: #403b36;
+      background-image: url('https://images.pexels.com/photos/5844664/pexels-photo-5844664.jpeg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+    }
+
+    .anh-bia div {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 60px 20px;
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      font-size: 38px;
+    }
+
+    .anh-bia p {
+      max-width: 570px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 25px 20px 50px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    h2 span {
+      color: #ae373b;
+    }
+
+    /* Cac o mon an chia deu bang Grid */
+    .danh-sach-mon {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      align-items: stretch;
+    }
+
+    .mon-an {
+      background-color: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 3px 15px #e8e8e8;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mon-an img {
+      width: 100%;
+      height: 235px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .noi-dung {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    h3 {
+      color: #ae373b;
+      font-size: 21px;
+      margin: 10px 0 15px;
+    }
+
+    .mo-ta {
+      color: #747474;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    /* Khung cong thuc co nen hong nhat */
+    .cong-thuc {
+      background-color: #fcf6f5;
+      border-left: 3px solid #ae373b;
+      border-radius: 5px;
+      padding: 16px 14px;
+      font-size: 13px;
+      line-height: 1.6;
+      margin-top: auto;
+    }
+
+    h4 {
+      font-size: 15px;
+      margin: 0 0 10px;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0 20px 25px;
+      color: #777777;
+      font-size: 12px;
+    }
+
+    /* Tren dien thoai, xep cac mon an thanh mot cot */
+    @media (max-width: 700px) {
+      .danh-sach-mon {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="anh-bia">
+    <div>
+      <h1>Các món ăn nên thử khi đến Trà Vinh</h1>
+      <p>Khám phá hương vị độc đáo, đậm đà bản sắc văn hóa miền Tây Nam Bộ qua những món ăn đặc sản trứ danh.</p>
+    </div>
+  </header>
+  <main>
+    <h2>Danh Sách <span>Món Ngon Trà Vinh</span></h2>
+    <!-- shortcut: Ảnh món ăn là ảnh minh họa trực tuyến, thay bằng ảnh gốc khi có bộ ảnh của bạn. -->
+    <section class="danh-sach-mon" aria-label="Danh sách món ăn đặc sản Trà Vinh">
+      
+      <article class="mon-an">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZP7bENW3yRlCKjpDXjma3bQRjEmYK3WyotaWQbhoeA&s=10" alt="Ảnh minh họa món dừa sáp dầm đá" width="800" height="540">
+        <div class="noi-dung">
+          <h3>1. Dừa Sáp</h3>
+          <p class="mo-ta">Đặc sản quý hiếm của vùng đất Cầu Kè với phần cơm dừa dẻo quánh, béo ngậy. Thích hợp nhất làm món giải khát mát lạnh cho ngày hè.</p>
+          <div class="cong-thuc">
+            <h4>Cách chế biến & Thưởng thức:</h4>
+            <ul>
+              <li><strong>Nguyên liệu:</strong> Cơm dừa sáp, sữa đặc, sữa tươi, đậu phộng rang giã nhỏ, đá bào.</li>
+              <li><strong>Cách làm:</strong>
+                <ol>
+                  <li>Dùng muỗng nạo lấy phần cơm dừa sáp dẻo quánh cho vào ly.</li>
+                  <li>Rưới thêm sữa đặc và sữa tươi tùy theo độ ngọt yêu thích.</li>
+                  <li>Cho đá bào lên trên rồi trộn/dầm đều.</li>
+                  <li>Rắc đậu phộng rang giã dập lên bề mặt và thưởng thức ngay.</li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="mon-an">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNHTffUIWbkt6Ctl9Y0OZLRRn5XspDjVA0Lro3rvw8ag&s=10" alt="Ảnh minh họa món bún nước dùng và rau ăn kèm" width="800" height="540">
+        <div class="noi-dung">
+          <h3>2. Bún Nước Lèo</h3>
+          <p class="mo-ta">Hương vị giao thoa văn hóa Kinh – Khmer, nổi bật với vị mắm đặc trưng, ăn kèm thịt quay, huyết và rau sống thái mỏng.</p>
+          <div class="cong-thuc">
+            <h4>Công thức nấu nhanh:</h4>
+            <ul>
+              <li><strong>Nguyên liệu:</strong> Bún, mắm bò hóc/mắm cá linh, sả băm, ngải bún, thịt quay, huyết heo, cá lóc.</li>
+              <li><strong>Cách làm:</strong>
+                <ol>
+                  <li>Nấu mắm với nước và sả đập dập, sau đó lọc lấy phần nước cốt trong.</li>
+                  <li>Phi thơm sả băm và ngải bún rồi cho vào nồi nước lèo tạo mùi thơm.</li>
+                  <li>Trụng bún vào tô, xếp thịt cá lóc, huyết luộc và heo quay lên trên.</li>
+                  <li>Chan nước lèo nóng, ăn kèm rau sống.</li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="mon-an">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIz1V4OlDOqN_PUZ4lY90wGy82PPVFZbxRYxDEmUmTg&s=10" alt="Ảnh minh họa tô nước dùng với rau và nguyên liệu tươi" width="800" height="540">
+        <div class="noi-dung">
+          <h3>3. Bún Suông (Bún Đuông)</h3>
+          <p class="mo-ta">Món bún độc đáo với những con “suông” tôm tươi quết nhuyễn nặn dài, nước dùng đậm vị màu hạt điều thơm lừng.</p>
+          <div class="cong-thuc">
+            <h4>Công thức nấu nhanh:</h4>
+            <ul>
+              <li><strong>Nguyên liệu:</strong> Bún tươi, tôm quết nhuyễn, thịt ba chỉ, xương heo, hạt điều màu.</li>
+              <li><strong>Cách làm:</strong>
+                <ol>
+                  <li>Làm chả suông: Tôm quết nhuyễn cùng gia vị rồi cho vào túi bắt kem nặn thành thanh dài.</li>
+                  <li>Nấu nước dùng từ xương, nêm gia vị và thêm dầu hạt điều tạo màu.</li>
+                  <li>Thả chả suông vào nồi nước dùng cho nổi lên là chín.</li>
+                  <li>Chan nước dùng, chả tôm và thịt lên tô bún.</li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="mon-an">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBek9383Uy5sttIqNCvTjzEdAmPSVEgws0ngZU1XRIQg&s=10" alt="Ảnh minh họa món bánh tét Trà Cuôn" width="800" height="540">
+        <div class="noi-dung">
+          <h3>4. Bánh Tét Trà Cuôn</h3>
+          <p class="mo-ta">Nổi tiếng với nếp dẻo thơm nhuộm màu tự nhiên từ lá ngót, nhân đậu xanh, thịt mỡ và trứng muối đậm đà vừa miệng.</p>
+          <div class="cong-thuc">
+            <h4>Công thức làm cơ bản:</h4>
+            <ul>
+              <li><strong>Nguyên liệu:</strong> Nếp ngon, nước cốt lá ngót/lá cẩm, đậu xanh đãi vỏ, thịt ba chỉ, trứng muối, lá chuối.</li>
+              <li><strong>Cách làm:</strong>
+                <ol>
+                  <li>Nếp ngâm trộn nước cốt lá ngót để lấy màu xanh tự nhiên và độ thơm.</li>
+                  <li>Đậu xanh nấu chín quết nhuyễn, bao bọc lấy nhân thịt ba chỉ và trứng muối.</li>
+                  <li>Gói nếp và nhân chặt tay trong lá chuối, buộc dây nilon chắc chắn.</li>
+                  <li>Luộc bánh liên tục trong 10 - 12 tiếng cho bánh chín dẻo mềm.</li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+  <footer>Đặc sản Trà Vinh · Hương vị miền Tây Nam Bộ · Ảnh món ăn mang tính minh họa</footer>
+</body>
+</html>
